@@ -49,6 +49,21 @@ Backtest và tối ưu hiệu suất của bot trước khi triển khai thực 
     - Thêm bot vào chart & Chạy thử. 
     - Sử dụng History (Lịch sử giao dịch): Kiểm tra lệnh vào ra. 
     - Compile Code và xem các loại lỗi (Errors/Warnings).
+    
+    ```    
+        tôi muốn tạo một con bot trên phần mềm Metatrader 5 . 
+        có các tham số 
+         -  số lot mở lệnh 
+         -  tham số SL 
+         - tham số TP tính bằng pip . 
+         - hệ số nhân lot 
+        chiến thuật là, 
+            bắt đầu vào mở lệnh BUY đầu tiên 
+            - kiểm tra lệnh
+              1. lệnh đó chạm TP thì tiếp tục mở lệnh cùng loại( BUY thì mở BUY tiếp )
+            
+              2. Nếu lênh đó chạm SL thì mở lệnh ngược lại ( BUY chạm SL thì mở Lệnh SELL ), tăng lot theo hệ số. 
+    ```
 
 4. Tận dụng AI (Thực hành)	
     - Nhờ AI: Tạo một đoạn code MQL5 đơn giản (ví dụ: bot Buy 1 lệnh khi mở). 
@@ -100,3 +115,4 @@ Backtest và tối ưu hiệu suất của bot trước khi triển khai thực 
 3. Dự án Cá nhân	
     - Ôn tập & Hỏi đáp toàn bộ kiến thức. 
     - Định hướng phát triển cho Dự án Bot Cá nhân (Tối ưu, kết hợp chỉ báo, quản lý vốn).
+
